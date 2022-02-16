@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chess board</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        tr {
+            width: 20px;
+            height: 20px;
+        }
+        td {
+            border: 1px solid #888;
+            width: 20px;
+            height: 20px;
+            background-color: #eee;
+        }
+
+        .string_1 .column_2{
+            background-color: black;
+        }
+
+        .string_2 .column_1{
+            background-color: black;
+        }
+
+        .catalog {
+            display: flex;
+        }
+
+        .product{
+            margin-right: 20px;
+        }
+    </style>
+    <script src="main.js" defer></script>
+</head>
+<body>
+<table id="chess"></table>
+
+<div class="basket"></div>
+
+<div class="catalog"></div>
+</body>
+</html>
